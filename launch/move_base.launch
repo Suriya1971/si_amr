@@ -12,7 +12,8 @@
         <rosparam file="$(find si_amr)/param/dwa_local_planner_params.yaml" command="load" />
 
         <rosparam file="$(find si_amr)/param/costmap_prohibition_layer_params.yaml" command="load" ns="global_costmap" />
-
+        <rosparam file="$(find si_amr)/param/costmap_prohibition_layer_params.yaml" command="load" ns="local_costmap" />
+        
     </node>
 
 </launch>
